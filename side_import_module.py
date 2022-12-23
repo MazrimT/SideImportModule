@@ -3,7 +3,7 @@ from pathlib import Path
 import importlib 
 
 
-def special_import(module_to_import):
+def side_import(module_to_import):
 """ Imports a python package same as doing "import x" 
     makes it possible to import names from a list or making the package names dynamically
 
